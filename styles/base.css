@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 main {
-    max-width: auto;
+    width: auto;
     margin: 2rem 4rem auto;
     display: flex;
     gap: 1.5rem;
