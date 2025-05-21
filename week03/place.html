@@ -17,16 +17,32 @@
     <main>
         <div class="hero">
             <picture>
-                <source>
-                <source>
-                <img>
+                <source srcset="images/lemur.webp" media="(max-width: 699px)">
+                <img src="images/mdg.webp" alt="lemur pic">
             </picture>
         </div>
+        <div class="title">
+                <h2>Data</h2>
+        </div>
         <section class="data">
-            <h2>Data</h2>
+            <p>Area: 587,041 sq km</p>
+            <p>Population: 27,691,018</p>
+            <p>Capital: Antananarivo</p>
+            <p>Languages: Malagasy, French</p>
+            <p>Currency: Malagasy Ariary</p>
+            <p>Time Zone: UTC+3</p>
+            <p>Calling Code: +261</p>
+            <p>Internet TLD: .mg</p>
         </section>
+        <div class="title2">
+            <h2>Weather</h2>
+            <img class="weather_icon" src="images/667368_celcius_clouds_farenheit_sunshine_temerature_icon.svg" alt="weather icon">
+        </div>
         <section class="weather">
-
+            <p>Conditions: Partly Cloudy</p>
+            <p>Temperature: <span id="temperatureC">Loading... °C</span></p>
+            <p>Wind Speed: <span id="windSpeedKM">Loading... kmh</span></p>
+            <p>Wind Chill: <span id="windChill">Loading...</span></p>
         </section>
     </main>
     <footer>
