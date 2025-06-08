@@ -1,0 +1,23 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #FAF9F6;
+  color: #333;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #FFD700;
+}
+
+a, li:hover {
+  color: #00BFFF;
+}
+
+footer {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  text-align: center;
+}
