@@ -163,7 +163,7 @@
     text-decoration: underline;
     }
 
-    @media screen and (max-width: 699px) {
+@media screen and (max-width: 699px) {
     main div{
         grid-template-columns: 1fr;
     }
