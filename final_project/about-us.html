@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/about-us.css">
+    <link rel="stylesheet" href="styles/about-us-large.css">
+    <script src="scripts/about-us.js" defer></script>
+    <title>Liger Energy Info Page</title>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+        <div class="crop-container">
+        <img class="headerlogo" src="images/liger_energy.webp" alt="Liger Energy Logo">
+        </div>
+        <h1>Liger Energy About Us Page - Bradley Pace</h1>
+        <button class="hamburger"></button>
+        </div>
+        <div>
+            <nav>
+            <a href="index.html" id="home">Home</a>
+            <a href="12v.html" id="12V Battery">12V Battery</a>
+            <a href="large-generator.html" id="Large Generator">Large Generator</a>
+            <a href="small-generator.html" id="Small Generator">Small Generator</a>
+            <a href="about-us.html" id="About Us">About Us</a>
+            <a href="contact.html" id="Contact Us">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="images/other-battery.webp" alt="Innovation" />
+                    <div class="caption">Innovation at Every Turn</div>
+                </div>
+            <div class="slide fade">
+                <img src="images/solar-panels.webp" alt="Team" />
+                <div class="caption">Our Team in Action</div>
+            </div>
+            <div class="slide fade">
+                <img src="images/electricity.webp" alt="Field Testing" />
+                <div class="caption">Rigorous Field Testing</div>
+            </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+
+        <section class="products-overview">
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="images/happy-customers.webp" alt="happy customers">
+                    <h3>Happy Customers</h3>
+                    <p>We've never had a dissatisfied customer in 1,000,000,000 years!</p>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+
+                <div class="card video-card">
+                    <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/-XVMfNIJ53I?si=hKGjnzSfpL-BW9XK"
+                            title="YouTube video player"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                    </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-us">
+            <div class="why-us-content">
+                <div class="text-content">
+                <h2>Why Choose Liger Energy?</h2>
+                <ul>
+                    <li>✅ Cutting-edge technology</li>
+                    <li>✅ Eco-friendly solutions</li>
+                    <li>✅ Exceptional customer support</li>
+                    <li>✅ Proven track record in energy innovation</li>
+                </ul>
+                </div>
+                <img src="images/camping_generator_tent.webp" alt="Camping Pic">
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Bradley Pace Utah</p>
+        <p id="short"></p>
+    </footer>
+</body>
+</html>
