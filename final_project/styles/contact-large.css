@@ -7,6 +7,10 @@
         height: auto;
     }
 
+    header h1 {
+        text-align: center;
+    }
+
     .hamburger {
         position: absolute;
         top: 5px;
@@ -48,6 +52,112 @@
         border-bottom: 2px solid rgb(250, 250, 141);
     }
 
+    .form-card {
+        background-color: #ffffff;
+        padding: 2rem 3rem;
+        margin: 2rem auto;
+        max-width: 700px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-card h1 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        color: #1a1a1a;
+    }
+
+    form label,
+    form legend {
+        display: block;
+        margin-top: 1rem;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+    }
+
+    .inside-box {
+        text-align: left;
+    }
+
+    form select,
+    form input[type="text"],
+    form input[type="date"],
+    form textarea {
+        width: 100%;
+        padding: 0.7rem;
+        margin-top: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+        font-size: 1rem;
+    }
+
+    .rating {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 0.3rem;
+    }
+
+    .rating input[type="radio"] {
+        display: none;
+    }
+
+    .rating label {
+        font-size: 2rem;
+        color: #ccc;
+        cursor: pointer;
+        transition: color 0.2s;
+    }
+
+    .rating input[type="radio"]:checked ~ label,
+    .rating input[type="radio"]:checked ~ label ~ label {
+        color: #ffc107;
+    }
+
+    .rating label:hover,
+    .rating label:hover ~ label {
+        color: #ffdb58;
+    }
+
+
+    fieldset {
+        margin-top: 1rem;
+        border: 1px solid #ccc;
+        padding: 1rem;
+        border-radius: 6px;
+    }
+
+    input[type="checkbox"] {
+        margin-right: 0.5rem;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    .submit_button {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        margin-top: 2rem;
+        background-color: #ffe816;
+        border: none;
+        color: #000;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .submit_button:hover {
+        background-color: #e6d500;
+    }
+
+
 }
 
 @media screen and (min-width: 700px) {
@@ -68,11 +178,11 @@
     }
 
     nav {
-    display: flex;
-    justify-content: space-around;
-    gap: 0rem;
-    background-color: #333;
-    padding: 0.75rem 0;
+        display: flex;
+        justify-content: space-around;
+        gap: 0rem;
+        background-color: #333;
+        padding: 0.75rem 0;
     }
     
     nav a {
